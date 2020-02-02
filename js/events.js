@@ -1,6 +1,6 @@
-function getIt() {
-  return $('p').on('click')
-}
+$('p').on('click', function getIt () {
+  
+  
 
 $(document).ready(function(){
 
