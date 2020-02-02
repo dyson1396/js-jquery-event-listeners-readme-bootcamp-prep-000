@@ -4,12 +4,15 @@ function getIt() {
   });
 }
 
-unction frameIt() {
+function frameIt() {
   $('img').on('load', function() {
     $('img').addClass('tasty');
   });
 }
 
+function pressIt() {
+  
+}
 $(document).ready(function(){
 
 // call functions here
